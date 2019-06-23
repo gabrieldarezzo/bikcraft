@@ -116,14 +116,14 @@ p {
 /* Produtos */
 
 .produtos {
-    text-align: center;
+    text-align: center;    
 }
 
 .subtitulo {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-transform: uppercase;
-	font-size: 20px;
+	font-size: 25px;
     line-height: 20px;
     padding-top: 45px;
     padding-bottom: 40px;
@@ -181,9 +181,29 @@ p {
 
 .call {
     padding-top: 40px;
+    height: 111px;
     clear: both;
+    margin-bottom: 60px;
 }
 
 .call p {
     margin-bottom: 20px;    
+}
+
+.portfolio {
+    text-align: center;
+}
+
+/* Portfolio */
+.portfolio {
+    background-color: #000;
+    color: #fec63e; /* Amarelo */    
+}
+
+.portfolio .subtitulo:after {
+    background: #fec63e; /* Amarelo */
+}
+
+.espacamento-img {
+    padding-top: 15px;
 }
