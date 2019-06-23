@@ -93,21 +93,37 @@ img {
 .quote-externo {
 	max-width: 320px;
 	margin: 0 auto;
-	margin-bottom: 40px;
+	margin-bottom: 40px;	
+}
+
+
+.quote-externo-white {
 	color: white;
 }
 
+.quote-externo-black {
+	color: black;
+}
+
 .quote-externo p {
-	font-style: italic;
+    font-style: italic;
+    font-weight: bold;
 }
 
 .quote-externo p:before, .quote-externo p:after {
 	content: "";
 	display: block;
 	width: 60px;
-	height: 3px;
-	background: #fff;
+	height: 3px;	
 	margin: 14px auto 10px auto;
+}
+
+.quote-externo-white p:before, .quote-externo-white p:after {
+    background: #fff;
+}
+
+.quote-externo-black p:before, .quote-externo-black p:after {
+    background: #000;
 }
 
 .quote-externo cite {
@@ -245,11 +261,98 @@ img {
     padding-bottom: 20px;
     letter-spacing: .1em;
 }
+
 .underscore:after {
     content: "";
 	display: block;
 	width: 60px;
-	height: 3px;
-	background: #000;
+	height: 3px;	
 	margin: 6px auto 10px auto;
+}
+
+.underscore-white:after {
+    background: #fff;	
+}
+
+.underscore-black:after {
+    background: #000;	
+}
+
+.underscore-yellow:after {
+    background: #fec63e; /* Amarelo */
+}
+
+.underscore-yellow {
+    color:  #fec63e; /* Amarelo */
+}
+
+/* Quebra */
+
+.quebra {
+    text-align: center;
+    background: url("../img/bg-footer.jpg") no-repeat center;
+    width: 100%;
+    height: 220px;
+}
+.quebra blockquote {
+    max-width: 400px;
+
+}
+
+/* Footer */
+
+.footer {
+    width: 100%;
+    background-color: #000;
+    color: #FFF;
+    padding: 20px 0;
+}
+
+.footer h3 {
+    font-size: 18px;
+    line-height: 25px;
+    color: #fec63e;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-weight: bold;
+}
+
+.footer h3:after {
+    content: "";
+	display: block;
+	width: 60px;
+	height: 3px;	
+    margin: 6px 0 10px 0;    
+    background: #fec63e;	
+}
+
+.footer_historia {
+    padding-right: 55px;
+}
+
+.footer_contato ul li {
+    font-size: 14px;
+    line-height: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+}
+
+.footer_redes ul li {
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.footer_redes ul li a {
+    border: 3px solid #fec63e;
+    display: block;
+    padding: 10px;    
+}
+
+.footer_redes ul li a:hover {
+    border: 3px solid #FFF;
+}
+
+.copy {
+    width: 100%;
+    background-color: #fec63e;
+    padding: 20px 0
 }
