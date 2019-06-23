@@ -11,6 +11,10 @@ p {
 	line-height: 20px;
 }
 
+img {
+    display: block;
+}
+
 .btn {
 	border: 3px solid #fec63e;
 	padding: 10px 30px;
@@ -74,7 +78,7 @@ p {
 	height: 380px;
 	background: url("../img/bg.jpg") no-repeat center;
 	background-size: cover;
-	margin-top: 96px;	
+	margin-top: 92px;	
     padding-top: 80px;
     text-align: center;
 }
@@ -116,7 +120,7 @@ p {
 /* Produtos */
 
 .produtos {
-    text-align: center;    
+    text-align: center;
 }
 
 .subtitulo {
@@ -205,5 +209,47 @@ p {
 }
 
 .espacamento-img {
-    padding-top: 15px;
+    padding-top: 20px;
+}
+
+
+/* Qualidade */
+.qualidade {
+    text-align: center;
+}
+
+.qualidade:after {
+    content: "";
+    width: 634px;
+    height: 83px;
+    display: block;
+    background: url("../img/linhas.png") no-repeat center;
+    position: absolute;
+    top: 200px;
+    right: 162px;
+    z-index: -1;
+}
+
+.qualidade img {
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+
+.underscore {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+	font-size: 18px;
+    line-height: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    letter-spacing: .1em;
+}
+.underscore:after {
+    content: "";
+	display: block;
+	width: 60px;
+	height: 3px;
+	background: #000;
+	margin: 6px auto 10px auto;
 }
